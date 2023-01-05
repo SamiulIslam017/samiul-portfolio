@@ -9,7 +9,7 @@
     padding: 15px 35px;
     text-transform: capitalize;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #FD6E0A;
     cursor: pointer;
 }
@@ -188,4 +188,100 @@ nav ul li a{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+
+/* resume style */
+.resume{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.resume-details{
+    display: flex;
+    margin-top: 80px;
+    gap: 24px;
+    text-align: left;
+}
+.resume-main-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 10px;
+    margin-top:30px;
+    color: #474747;
+}
+.resume-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+
+}
+.resume-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume-btn{
+    margin-top:50px;
+}
+
+/* footer style */
+footer{
+    background-color: #FFF8F3;
+}
+.footer-widget{
+    padding: 130px 0;
+    display: flex;
+    gap: 120px;
+}
+.left-widget,
+.right-widget{
+    flex: 1;
+}
+.left-widget .widget-description{
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+.left-widget ul{
+    display: flex;
+    padding: 0;
+}
+.left-widget ul li{
+    list-style: none;
+}
+.left-widget ul li a{
+    margin: 0 30px 0 0;
+}
+
+.right-widget .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.right-widget .form-group input,
+.right-widget .form-group textarea{
+    padding: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+}
+hr{
+    color: #d1d1d1;
 }
