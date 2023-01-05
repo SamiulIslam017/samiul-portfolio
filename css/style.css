@@ -21,6 +21,19 @@ button i{
     width: 80%;
     margin: 0 auto;
 }
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-description{
+    font-size: 18px;
+    line-height: 30px;
+    color:#757575;
+    margin-bottom: 30px;
+}
 
 /* Nav style */
 header{
@@ -111,3 +124,68 @@ nav ul li a{
     background-size: cover;
 }
 
+/* about-us style */
+
+.about{
+    margin-top:130px;
+}
+.about-us{
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+}
+.find-us{
+    display: flex;
+    justify-content: space-around;
+}
+.our-details h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.our-details h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+
+/* what-i-do style */
+
+.what-i-do{
+    margin: 130px auto;
+    text-align: center;
+}
+.what-i-do .section-description{
+    padding: 0 10%;
+}
+.services{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+.our-service{
+    text-align: left;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.our-service img{
+    margin-bottom: 25px;
+}
+.our-service h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    margin-bottom: 25px;
+}
+.our-service p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
