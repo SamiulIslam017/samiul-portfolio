@@ -49,7 +49,7 @@ nav{
     
     display: flex;
     justify-content: space-between;
-   padding: 40px 0;
+   padding: 20px 0;
 }
 .site-logo h2{
     font-family: 'Righteous', cursive;
@@ -87,21 +87,19 @@ nav ul li a{
 .banner-text .banner-sub-title{
     font-weight: 400;
     font-size: 35px;
-    line-height: 50px;
     margin-bottom: 5px;
 }
 .banner-text .banner-title{
     font-weight: 600;
     font-size: 65px;
-    line-height: 80px;
     color: #181818;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .banner-text .banner-description{
     font-size: 18px;
     line-height: 30px;
     color: #757575;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .banner-text .contact-btn{
