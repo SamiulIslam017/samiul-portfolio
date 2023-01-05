@@ -43,13 +43,14 @@ header{
     url("../images/developer.png");
     background-position: bottom right, left;
     background-repeat: no-repeat;
+    background-size: auto, contain;
     
 }
 nav{
     
     display: flex;
     justify-content: space-between;
-   padding: 20px 0;
+   padding: 50px 0;
 }
 .site-logo h2{
     font-family: 'Righteous', cursive;
@@ -86,20 +87,22 @@ nav ul li a{
 
 .banner-text .banner-sub-title{
     font-weight: 400;
-    font-size: 35px;
+    font-size: 45px;
+    line-height: 61px;
     margin-bottom: 5px;
 }
 .banner-text .banner-title{
     font-weight: 600;
-    font-size: 65px;
+    font-size: 85px;
+    line-height: 116px;
     color: #181818;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .banner-text .banner-description{
     font-size: 18px;
     line-height: 30px;
     color: #757575;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .banner-text .contact-btn{
@@ -119,7 +122,8 @@ nav ul li a{
 
 .banner-img img{
     background-position: right bottom;
-    background-size: cover;
+    
+    width: 100%;
 }
 
 /* about-us style */
@@ -231,6 +235,9 @@ nav ul li a{
 
 .resume-btn{
     margin-top:50px;
+}
+.resume-btn .primary-btn{
+    text-transform: inherit;
 }
 
 /* footer style */
